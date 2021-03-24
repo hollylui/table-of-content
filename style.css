@@ -1,0 +1,89 @@
+/* body -------------------------------------------- */
+
+body {
+  margin: 0 100px;
+  font-size: 18px;
+  line-height: 35px;
+  font-family: "PT Sans", sans-serif;
+}
+/* header ---------------------------------------- */
+h1 {
+  font-family: "Cinzel", serif;
+  font-size: 60px;
+}
+
+/* list -------------------------------------------- */
+ul li {
+  font-size: 30px;
+  line-height: 60px;
+  font-family: "Dosis", sans-serif;
+  list-style-type: none;
+}
+
+ul > ul > li {
+  list-style-type: lower-roman;
+  font-size: 25px;
+}
+
+ul > ul > ul > li {
+  list-style-type: lower-latin;
+  font-size: 20px;
+}
+
+ul p,
+ul div {
+  font-size: 18px;
+  line-height: 35px;
+  font-family: "PT Sans", sans-serif;
+}
+
+li[id*="Back"] {
+  list-style-type: lower-roman;
+  font-size: 18px;
+}
+
+li[id*="BGI"] {
+  list-style-type: lower-latin;
+  font-size: 18px;
+}
+
+/* link-------------------------------------------- */
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+li > a:link,
+li > a:active,
+li > a:visited {
+  color: black;
+}
+
+li > a:hover {
+  color: orange;
+}
+
+p ~ a:hover {
+  background-color: blue;
+  color: white;
+}
+
+/* p -------------------------------------- */
+p {
+  text-align: justify;
+}
+
+/* class----------------------------------- */
+.buttonTop {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  background-color: red;
+  margin-bottom: 20px;
+}
